@@ -1,6 +1,8 @@
 Nikki Shakeraneh (shak0039)
 
-# Lab 3
+# CST8919 Lab 3 - Grafana Installation and Dashboard Creation
+
+I began the lab by creating an Ubuntu virtual machine on Azure and adjusting the networking settings to allow traffic on port 3000, which Grafana uses. After connecting to the virtual machine using SSH, I installed Grafana and tried to enable the service. But, I ran into an error because I mistakenly capitalized the service name in the command line. Once I fixed that, I moved on to enabling the virtual machine's system-assigned managed identity and assigning it the necessary roles in Azure. While configuring Grafana to use managed identity, I noticed that the Azure section was missing in the config file, so I added it manually and set the appropriate flag. Then, I logged into the Grafana UI and connected it to Azure Monitor. The final step was building a dashboard with a few key metrics so that everything could be displayed correctly after saving the panels.
 
 This screenshot shows the creation of an Ubuntu virtual machine in the Azure portal.
 ![image](https://github.com/user-attachments/assets/9a99f48f-16c5-4288-bf7d-52f5a0bcff6f)
