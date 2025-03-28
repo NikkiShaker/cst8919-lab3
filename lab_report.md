@@ -2,11 +2,15 @@ Nikki Shakeraneh (shak0039)
 
 # Lab 3
 
+This screenshot shows the successful creation of an Ubuntu virtual machine in the Azure portal.
 ![image](https://github.com/user-attachments/assets/9a99f48f-16c5-4288-bf7d-52f5a0bcff6f)
 
+This screenshot captures the Networking settings of the VM, where inbound port rule for TCP port 3000 is added. This allows external access to Grafana’s web interface, which runs on port 3000.
 ![image](https://github.com/user-attachments/assets/2b3ffc30-1e82-40a7-8344-3cee0f735dc3)
 
+This is the step where I am connecting to the VM using SSH. The connection confirms access to the Ubuntu VM environment, which enables the installation and configuration of Grafana and Azure integration.
 ![image](https://github.com/user-attachments/assets/d789796b-8d0e-4cf8-9501-3769f437c145)
+
 
 ![image](https://github.com/user-attachments/assets/6e83f01e-871c-46c0-8931-e054583f63e9)
 
